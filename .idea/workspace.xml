@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a19cb37-118c-4c63-8cfb-390a636767d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CucumberRunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seleniumTests/ButtonSiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seleniumTests/FormatWebTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seleniumTests/LoginSiteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/seleniumTests/TestWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/steps/StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/buttonSiteTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/loginSiteTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/buttonSiteTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/buttonSiteTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/loginSiteTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/loginSiteTest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +66,16 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
 }</component>
+  <component name="ProjectCucumberState">
+    <option name="filterByTags" value="true" />
+    <option name="selectedTags">
+      <list>
+        <option value="@run" />
+      </list>
+    </option>
+    <option name="selection" value="@run" />
+    <option name="sourcePathOnly" value="true" />
+  </component>
   <component name="ProjectId" id="2duP6d2dpIqd3e1ktd72dhVsfPy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -78,21 +84,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.Feature: buttonSiteTest.executor": "Run",
+    "Cucumber Java.Feature: loginSiteTest.executor": "Run",
     "Cucumber Java.Scenario: Выполенение действий.executor": "Run",
+    "Gradle.-AQALEARNING-UITestProject [allureReport].executor": "Run",
+    "Gradle.-AQALEARNING-UITestProject [allureServe].executor": "Run",
+    "Gradle.-AQALEARNING-UITestProject [buildDependents].executor": "Run",
+    "Gradle.-AQALEARNING-UITestProject [build].executor": "Run",
+    "Gradle.-AQALEARNING-UITestProject [clean test].executor": "Run",
+    "Gradle.-AQALEARNING-UITestProject [clean].executor": "Run",
+    "Gradle.Build -AQALEARNING-UITestProject.executor": "Run",
     "Gradle.Build UITestProject.executor": "Run",
     "Gradle.UITestProject [build].executor": "Run",
+    "JUnit.CucumberRunnerTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Выполенение действий">
+  <component name="RunManager" selected="Gradle.-AQALEARNING-UITestProject [allureServe]">
     <configuration name="Scenario: Выполенение действий" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/buttonSiteTest.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/webTest.feature" />
       <option name="GLUE" value="org.example.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="UITestProject.test" />
@@ -110,7 +130,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UITestProject [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="-AQALEARNING-UITestProject [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="-AQALEARNING-UITestProject [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="-AQALEARNING-UITestProject [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,10 +196,35 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="CucumberRunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UITestProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CucumberRunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Выполенение действий" />
+      <item itemvalue="Gradle.-AQALEARNING-UITestProject [build]" />
+      <item itemvalue="Gradle.-AQALEARNING-UITestProject [allureReport]" />
+      <item itemvalue="Gradle.-AQALEARNING-UITestProject [allureServe]" />
+      <item itemvalue="JUnit.CucumberRunnerTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.-AQALEARNING-UITestProject [allureServe]" />
+        <item itemvalue="Gradle.-AQALEARNING-UITestProject [allureReport]" />
+        <item itemvalue="Gradle.-AQALEARNING-UITestProject [build]" />
         <item itemvalue="Cucumber Java.Scenario: Выполенение действий" />
-        <item itemvalue="Gradle.UITestProject [build]" />
+        <item itemvalue="JUnit.CucumberRunnerTest" />
       </list>
     </recent_temporary>
   </component>

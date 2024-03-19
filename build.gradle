@@ -41,6 +41,7 @@ dependencies {
     testImplementation "io.qameta.allure:allure-assertj:$allureVersion"
     testImplementation "io.qameta.allure:allure-rest-assured:$allureVersion"
     testImplementation "io.qameta.allure:allure-java-commons:$allureVersion"
+    testImplementation "io.qameta.allure:allure-cucumber5-jvm:$allureVersion"
 }
 
 test {
