@@ -19,7 +19,7 @@ public class StepDefinitions {
 
     @Дано("Перейти к сайту по ссылке {string}")
     public void setUpStep(String URL) {
-        System.setProperty("webdriver.chrome.driver", "D:\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
         webDriver = new ChromeDriver();
         webDriver.get(URL);
     }
