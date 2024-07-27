@@ -1,5 +1,6 @@
 package org.example.steps;
 
+import com.codeborne.selenide.Configuration;
 import io.cucumber.java.ru.Дано;
 import io.cucumber.java.ru.Когда;
 import io.cucumber.java.ru.Тогда;
@@ -8,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StepDefinitions {
@@ -16,6 +18,12 @@ public class StepDefinitions {
     private static int initialAddToCartCount;
     private static int finalRemoveCount;
 
+    @Дано("Перейти к сайту по ссылке через Selenide {string}")
+    public void setUpSelenideStep(String URL){
+        Configuration.browser = "chrome";
+        Configuration.webdriverLogsEnabled = true;
+        open(URL);
+    }
 
     @Дано("Перейти к сайту по ссылке {string}")
     public void setUpStep(String URL) {
