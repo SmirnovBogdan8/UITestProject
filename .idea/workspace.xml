@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a19cb37-118c-4c63-8cfb-390a636767d8" name="Changes" comment="автоматическое обновление драйвера для selenide">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/ButtonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/ButtonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/storage/ButtonStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/storage/InputStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/storage/MainPageStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/steps/MainPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/SimpleTest.feature" afterDir="false" />
+    <list default="true" id="6a19cb37-118c-4c63-8cfb-390a636767d8" name="Changes" comment="структура для хранилищ и интерфейсов UI тестирования веб-сайта">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/storage/ButtonStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/storage/InputStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/selenideTests/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/selenideTests/SimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/steps/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/steps/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/ButtonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/service/ButtonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/ButtonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/service/ButtonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/storage/ButtonStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/storage/InputStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/storage/MainPageStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/storage/MainPageStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/steps/MainPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/steps/MainPageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +60,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SmirnovBogdan8"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SmirnovBogdan8/UITestProject.git",
+    "accountId": "58e6f48d-e42a-4495-9e99-e7b73a619877"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -109,6 +121,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/smirn/IdeaProjects/UITestProject",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
@@ -244,13 +257,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -270,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721999836959</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="структура для хранилищ и интерфейсов UI тестирования веб-сайта">
+      <option name="closed" value="true" />
+      <created>1722091570057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722091570058</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +292,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="автоматическое обновление драйвера для selenide" />
-    <option name="LAST_COMMIT_MESSAGE" value="автоматическое обновление драйвера для selenide" />
+    <MESSAGE value="структура для хранилищ и интерфейсов UI тестирования веб-сайта" />
+    <option name="LAST_COMMIT_MESSAGE" value="структура для хранилищ и интерфейсов UI тестирования веб-сайта" />
   </component>
 </project>
