@@ -18,13 +18,6 @@ public class StepDefinitions {
     private static int initialAddToCartCount;
     private static int finalRemoveCount;
 
-    @Дано("Перейти к сайту по ссылке через Selenide {string}")
-    public void setUpSelenideStep(String URL){
-        Configuration.browser = "chrome";
-        Configuration.webdriverLogsEnabled = true;
-        open(URL);
-    }
-
     @Дано("Перейти к сайту по ссылке {string}")
     public void setUpStep(String URL) {
         System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");

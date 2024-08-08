@@ -3,4 +3,5 @@
   
   @run
   Сценарий: Выполенение действий
-    Дано Перейти к сайту по ссылке через Selenide "https://www.google.co.ug/"
+    Дано Перейти к сайту по ссылке через Selenide "https://www.saucedemo.com/"
+    
